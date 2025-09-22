@@ -6,7 +6,7 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://cyber-meia.github.io',
-	base: '/',
+	site: 'https://cyber-meia.github.io/blog',
+	base: '/blog',
 	integrations: [mdx(), sitemap()],
 });
