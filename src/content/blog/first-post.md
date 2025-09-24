@@ -1,16 +1,52 @@
 ---
-title: 'First post'
-description: 'Lorem ipsum dolor sit amet'
-pubDate: 'Jul 08 2022'
+title: 'Kickoff: Choosing Our Cybersecurity Project'
+description: 'Why this blog runs on Astro and the two cybersecurity themes we evaluated for our team project'
+pubDate: 'Sep 23 2022'
 heroImage: '../../assets/blog-placeholder-3.jpg'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+We’re launching our Master’s in AI team project blog to document our progress. We picked (https://astro.build/)[**Astro**] to keep writing fast and the site fast, while leaving room for small changes in theme and functionality.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+Our team’s cybersecurity theme was split across two candidate directions:
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+1. An **expert system for phishing-URL detection** that inspects both the URL and its landing page for suspicious behavior;
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+2. A **network intrusion detection/prevention system** focused on monitoring traffic, alerting on anomalies, and safely blocking attacks (e.g., DDoS or MitM attacks).
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+Below we summarize why Astro is our framework of choice and provide an overview of both the topics we considered and why we chosen our theme.
+
+---
+
+## Why use Astro for this blog?
+
+When Prof. Carlos Ramos asked for a blog to record our work process, we wanted a simple framework which was basically a "document eater" with customizable themes and components and easy to deploy. Thankfully, our colleague Bruno Jesus knew just the right tool.
+
+**Astro** is a JavaScript framework allows for seamless integration with UI frameworks, such has React, Vue, Angular and others, as well as deployment adapters such as GitHub Pages, AWS, Vercel, etc.
+
+Most importantly, it accepts Markdown and MDX files as is which makes it extremely easy for making posts in our blog, since we can integrate the page with Hyperlinks, images, graphs, tables and code, all in the same document. Additionally, MDX lets us use Typescript with our markdown text, which we can use to further customize it. It also provides some performance qualities, but that is not our main concern with this blog.
+
+All in all, **Astro** simplifies our work in logging our activities and maintain the website, since all its needed is a markdown file and the framework does all the heavy lifting.
+
+---
+
+## Considered topics for our Team Project
+
+Choosing topics that involve Cybersecurity and Artificial Intelligence is not challenge, the problem lies on choosing a topic that is not only relatively simple (since we only have 8 weeks and not a lot of background knowledge in AI) but at the same time be useful and provide value. As such, we decided to use the knowledge we will gather throughout this 8 weeks to build an **expert system on phishing/URL.**
+
+### First Topic - Phishing-URL Expert System
+
+The main goal of this system is really simple, detect and alarm the user for phishing links/URLs. In order to accomplish this, the system would have to analyze domains and subdomains of a link, redirects, DOM of the webpage the links redirects to, obfuscated JS and other features in order to make it's prediction.
+
+Finally, if times permits, we would like to incorporate this system within a browser extension, which allows an user to activate the system at will, at any webpage or while reading an email, providing inference in useful time.
+
+---
+
+### Second Topic — Network IDS/NIPS
+
+Another proposed direction was to design a system that can automatically detect and mitigate malicious activity on a network: a **Network Intrusion Detection/Prevention System (NIDS/NIPS)**. 
+
+The idea is to observe inbound and outbound traffic (via packet capture or flow summaries), identify signs of attacks such as **DDoS**, **Man-in-the-Middle**, **spoofing**, **host/port scans**, etc, and then apply guarded responses (temporary rate limits, blocklists) with clear audit logs.
+
+Given the **8-week** timeline, we concluded this topic to be way to complex for what we can deliver right now. To maximize explainability and time-to-value, we chose to prioritize the **Phishing/URL Expert System** for this group project, keeping the NIDS/NIPS track as future work once we have more time and experience for safe evaluation and hardening.
+
+---
