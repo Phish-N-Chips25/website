@@ -1,62 +1,115 @@
-# Astro Starter Kit: Blog
+# Equipa 10 - Website da Equipa
 
-```sh
-npm create astro@latest -- --template blog
-```
+Website oficial da **Equipa 10** do Mestrado em Engenharia de Inteligência Artificial (MEIA) no Instituto Superior de Engenharia do Porto (ISEP).
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🎯 Sobre a Equipa 10
 
-Features:
+Somos uma equipa de estudantes do **Mestrado em Engenharia de Inteligência Artificial no ISEP**, identificados como **Equipa 10**. A nossa área de aplicação (vertical) é **Cibersegurança**.
 
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+### Propósito do Website
 
-## 🚀 Project Structure
+Este website serve como:
 
-Inside of your Astro project, you'll see the following folders and files:
+- **Hub central** da nossa equipa e projetos
+- **Portfólio** do nosso trabalho académico na área de Cibersegurança
+- **Plataforma de documentação** das nossas metodologias e ferramentas
+- **Espaço de colaboração** assíncrona entre membros da equipa
+- **Registo público** do nosso progresso no mestrado
+
+## 🏫 Contexto Académico
+
+- **Instituição**: Instituto Superior de Engenharia do Porto (ISEP)
+- **Curso**: Mestrado em Engenharia de Inteligência Artificial (MEIA)
+- **Equipa**: Equipa 10
+- **Vertical**: Cibersegurança
+- **Ano**: 2025/2026
+
+## 🛠️ Stack Tecnológica
+
+- **Astro**: Framework para sites estáticos com suporte a Markdown
+- **GitHub**: Controlo de versões e colaboração
+- **GitHub Pages**: Alojamento gratuito e automático
+- **Markdown**: Escrita de conteúdo de forma simples e eficiente
+
+## ✨ Características
+
+- ✅ Colaboração assíncrona através de Pull Requests
+- ✅ Deploy automático via GitHub Pages
+- ✅ Performance otimizada
+- ✅ SEO-friendly com URLs canónicas e dados OpenGraph
+- ✅ Suporte a Sitemap e RSS Feed
+- ✅ Suporte completo a Markdown & MDX
+- ✅ Branch protection rules para segurança
+
+## 🚀 Estrutura do Projeto
 
 ```text
-├── public/
+├── public/                 # Assets estáticos (imagens, favicon, etc.)
 ├── src/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
+│   ├── components/         # Componentes Astro reutilizáveis
+│   ├── content/
+│   │   └── blog/          # Posts do blog em Markdown
+│   ├── layouts/           # Layouts para diferentes tipos de páginas
+│   ├── pages/             # Páginas do site (Home, About, Blog)
+│   └── styles/            # Estilos globais
+├── astro.config.mjs       # Configuração do Astro
+├── package.json           # Dependências e scripts
+└── tsconfig.json          # Configuração TypeScript
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## 📝 Fluxo de Trabalho
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+### Colaboração
 
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+- Todos os membros da equipa são *owners* da organização GitHub
+- Trabalho assíncrono através de branches e pull requests
+- Revisão obrigatória antes de merge (2 aprovações necessárias)
+- Branch protection rules ativas na `main`
 
-Any static assets, like images, can be placed in the `public/` directory.
+### Estrutura do Website
 
-## 🧞 Commands
+- **Homepage**: Apresentação da Equipa 10 e área de Cibersegurança
+- **Blog**: Artigos sobre o nosso progresso e metodologias
+- **About**: Informações detalhadas sobre os membros da equipa
 
-All commands are run from the root of the project, from a terminal:
+### Deploy
 
-| Command                   | Action                                           |
+- Deploy automático via GitHub Pages
+- Branch `main` é automaticamente publicada
+- Status checks obrigatórios (lint e build) antes do merge
+
+## 🧞 Comandos
+
+Todos os comandos são executados a partir da raiz do projeto:
+
+| Comando                   | Ação                                            |
 | :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| `npm install`             | Instala as dependências                         |
+| `npm run dev`             | Inicia o servidor de desenvolvimento local      |
+| `npm run build`           | Constrói o site para produção                   |
+| `npm run preview`         | Pré-visualiza o build localmente                |
+| `npm run astro ...`       | Executa comandos CLI do Astro                   |
 
-## 👀 Want to learn more?
+## 🔒 Segurança e Boas Práticas
 
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- **Branch Protection**: Apenas merges via pull requests
+- **Code Review**: 2 aprovações obrigatórias
+- **Status Checks**: Lint e build devem passar
+- **Auditoria**: Todos os commits são rastreáveis
+- **Integridade**: Aprovações antigas invalidam-se com novos commits
 
-## Credit
+## 📚 Recursos
 
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+- [Documentação do Astro](https://docs.astro.build)
+- [GitHub Pages](https://pages.github.com)
+- [Markdown Guide](https://www.markdownguide.org)
+
+## 👥 Equipa 10
+
+Este website é desenvolvido e mantido pela **Equipa 10** do Mestrado em Engenharia de Inteligência Artificial no ISEP. 
+
+**Área de Aplicação**: Cibersegurança  
+**Instituição**: Instituto Superior de Engenharia do Porto (ISEP)  
+**Ano Académico**: 2024/2025
+
+Para mais informações sobre os membros da equipa, consulte a página [About](/about/).
