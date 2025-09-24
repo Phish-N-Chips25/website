@@ -1,90 +1,90 @@
 ---
-title: 'Organização do Projeto com GitHub e Astro'
-description: 'Neste artigo explicamos como estruturámos a colaboração no âmbito do Mestrado em Engenharia de Inteligência Artificial no ISEP. Detalhamos as ferramentas escolhidas (GitHub, Astro e GitHub Pages) e mostramos como estas suportam um fluxo de trabalho assíncrono, colaborativo e preparado para crescer com o nosso projeto em Cibersegurança.'
+title: 'Project Organization with GitHub and Astro'
+description: 'In this article, we explain how we structured collaboration for the Master’s in Artificial Intelligence Engineering at ISEP. We detail the chosen tools (GitHub, Astro, and GitHub Pages) and show how they support an asynchronous, collaborative workflow that can grow with our Cybersecurity project.'
 pubDate: 'Sept 20 2025'
 ---
 
-## Estrutura de Colaboração e Documentação da Equipa: GitHub + Astro
+## Team Collaboration and Documentation Structure: GitHub + Astro
 
-No âmbito do nosso Mestrado em Engenharia de Inteligência Artificial no ISEP, a nossa equipa precisava de uma forma centralizada e fiável de colaborar.
-Como cada um de nós tem horários e disponibilidades diferentes, o trabalho assíncrono era essencial. Queríamos uma estrutura que suportasse colaboração em código, documentação e comunicação de uma forma natural para quem desenvolve software.
+As part of our Master’s in Artificial Intelligence Engineering at ISEP, our team needed a centralized and reliable way to collaborate.
+Since each of us has different schedules and availabilities, asynchronous work was essential. We wanted a structure that naturally supports code collaboration, documentation, and communication for software developers.
 
-## Centralização da Colaboração com o GitHub
+## Centralizing Collaboration with GitHub
 
-A primeira decisão foi criar uma **Organização no GitHub**.
-Com isso, passámos a ter uma “casa” única para todos os repositórios - desde protótipos e experiências até código mais sólido e documentação.
+Our first decision was to create a **GitHub Organization**.
+This gave us a single “home” for all repositories—from prototypes and experiments to more solid code and documentation.
 
-O que nos levou a esta escolha:
+Why we chose this:
 
-- **Controlo de versões**: o fluxo de *branches* e *pull requests* do GitHub ajuda-nos a gerir alterações de forma segura.
-- **Propriedade partilhada**: todos os membros da equipa são *owners* da organização, o que evita bloqueios caso alguém esteja indisponível.
-- **Transparência e accountability**: através dos *commits* e *pull requests* fica sempre registado quem participou em cada parte do projeto.
-- **Escalabilidade futura**: o GitHub também disponibiliza *Projects*, *Issues* e *Discussions*, que poderemos usar mais tarde se quisermos uma coordenação assíncrona mais estruturada.
+- **Version control**: GitHub’s *branch* and *pull request* workflow helps us manage changes safely.
+- **Shared ownership**: All team members are *owners* of the organization, preventing bottlenecks if someone is unavailable.
+- **Transparency and accountability**: Through *commits* and *pull requests*, it’s always clear who contributed to each part of the project.
+- **Future scalability**: GitHub also offers *Projects*, *Issues*, and *Discussions*, which we can use later for more structured asynchronous coordination.
 
-## Porque Optámos pelo Astro
+## Why We Chose Astro
 
-Para o blog e documentação, acabámos por escolher o **Astro**.
-Pareceu-nos a solução mais equilibrada entre simplicidade e flexibilidade:
+For the blog and documentation, we ended up choosing **Astro**.
+It seemed the best balance between simplicity and flexibility:
 
-- **Markdown-first**: escrever em Markdown é rápido e evita preocupações com formatação.
-- **Integração com React (e não só)**: quando precisarmos, podemos usar componentes React (ou mesmo Vue, Svelte, Solid). Isto deixa a porta aberta para criarmos *dashboards* ou visualizações interativas relacionadas com o nosso projeto.
-- **Experiência prévia**: alguns de nós já tinham usado o Astro noutros contextos, o que facilitou a curva de aprendizagem.
-- **Performance**: como gera sites estáticos, garante páginas rápidas e leves.
+- **Markdown-first**: Writing in Markdown is fast and avoids formatting worries.
+- **Integration with React (and more)**: When needed, we can use React components (or even Vue, Svelte, Solid). This leaves the door open for interactive dashboards or visualizations related to our project.
+- **Previous experience**: Some of us had already used Astro, which made the learning curve easier.
+- **Performance**: As a static site generator, it ensures fast and lightweight pages.
 
-Resumindo: o Astro deixa-nos focar agora no conteúdo, mas continua a ser flexível para crescer connosco.
+In short: Astro lets us focus on content now, but remains flexible enough to grow with us.
 
-## Critérios de Escolha e Boas Práticas
+## Selection Criteria and Best Practices
 
-Antes de chegar aqui, ainda olhámos para outras alternativas:
+Before settling, we considered other alternatives:
 
-- **Docusaurus**: é ótimo para documentação, mas pareceu-nos demasiado rígido. O Astro dá-nos mais liberdade e, além disso, também integra facilmente React e Vue, o que pode vir a ser útil.
-- **WordPress (versão gratuita)**: chegámos a considerar, mas depressa percebemos que não era adequado. A colaboração entre vários autores é limitada e não teríamos a mesma flexibilidade para usar componentes dinâmicos.
-- **Vercel**: esteve em cima da mesa, mas pareceu-nos “overkill” para já. O GitHub Pages cobre o essencial e ainda por cima mantém tudo no mesmo ecossistema.
+- **Docusaurus**: Great for documentation, but felt too rigid. Astro gives us more freedom and easily integrates React and Vue, which may be useful.
+- **WordPress (free version)**: We considered it, but quickly realized it wasn’t suitable. Collaboration between multiple authors is limited and we wouldn’t have the same flexibility for dynamic components.
+- **Vercel**: Was on the table, but seemed “overkill” for now. GitHub Pages covers the essentials and keeps everything in the same ecosystem.
 
-Ao mesmo tempo, definimos algumas boas práticas para manter consistência e qualidade:
+We also defined some best practices to maintain consistency and quality:
 
-- **Branching model**: usamos a *main branch* para produção, com *deployments* automáticos para o GitHub Pages.
-- **Pull requests**: até os artigos do blog passam por *pull requests*, o que garante sempre revisão colaborativa antes de publicar.
-- **Organização do site**: nesta fase inicial, vamos ter três secções:
-  - **Homepage**: uma breve introdução à equipa e ao nosso tema (Cibersegurança).
-  - **Blog**: onde vamos publicando artigos, começando já com a primeira *deadline*.
-  - **About**: página com alguns dados sobre os membros da equipa.
+- **Branching model**: We use the *main branch* for production, with automatic *deployments* to GitHub Pages.
+- **Pull requests**: Even blog articles go through *pull requests*, ensuring collaborative review before publishing.
+- **Site organization**: At this initial stage, we have three sections:
+  - **Homepage**: A brief introduction to the team and our topic (Cybersecurity).
+  - **Blog**: Where we publish articles, starting with the first *deadline*.
+  - **About**: A page with information about team members.
 
-## Segurança e Controlo de Acessos
+## Security and Access Control
 
-Além de simplificar o *deploy*, o GitHub dá-nos mecanismos de **segurança “out of the box”** que evitam construir (e manter) um *backoffice* apenas para gerir acesso ao blog. Todo o conteúdo vive em repositórios com **permissões granulares**, auditáveis via *commits* e *pull requests*.
+Besides simplifying *deploys*, GitHub provides **out-of-the-box security mechanisms** that avoid building (and maintaining) a *backoffice* just to manage blog access. All content lives in repositories with **granular permissions**, auditable via *commits* and *pull requests*.
 
-Para reforçar ainda mais a segurança, configurámos **branch protection rules** na `main`:
+To further strengthen security, we configured **branch protection rules** on `main`:
 
-- Alterações só entram através de *pull requests*, nunca via *push* direto.
-- São necessárias **duas aprovações** antes de qualquer merge, incluindo revisões obrigatórias de *Code Owners*.
-- Aprovações antigas deixam de ser válidas se forem feitos novos *commits*.
-- O merge só é possível após **status checks obrigatórios** (lint e build).
-- Todas as conversas de revisão têm de estar resolvidas.
-- Apenas *maintainers* podem dar *push*, e mesmo assim apenas se os *checks* passarem.
-- Nem administradores podem contornar estas regras.
+- Changes only go in via *pull requests*, never direct *push*.
+- **Two approvals** are required before any merge, including mandatory *Code Owner* reviews.
+- Old approvals become invalid if new *commits* are made.
+- Merge is only possible after **required status checks** (lint and build).
+- All review conversations must be resolved.
+- Only *maintainers* can push, and only if *checks* pass.
+- Not even administrators can bypass these rules.
 
-Esta configuração aproxima-nos de boas práticas de **DevSecOps**, assegurando **integridade, rastreabilidade e accountability** em todas as contribuições.
+This setup brings us closer to **DevSecOps** best practices, ensuring **integrity, traceability, and accountability** in all contributions.
 
-## Alojamento no GitHub Pages
+## Hosting on GitHub Pages
 
-Para simplificar, decidimos alojar tudo no **GitHub Pages**.
-É gratuito, fiável e encaixa diretamente no nosso fluxo de trabalho:
+To keep things simple, we decided to host everything on **GitHub Pages**.
+It’s free, reliable, and fits directly into our workflow:
 
-- Está no mesmo ecossistema que o código.
-- Os *deploys* são automáticos a partir da branch `main`.
-- Não precisamos de gerir infraestrutura extra enquanto nos focamos no trabalho académico.
+- It’s in the same ecosystem as our code.
+- *Deploys* are automatic from the `main` branch.
+- We don’t need to manage extra infrastructure while focusing on academic work.
 
-## Próximos Passos
+## Next Steps
 
-A configuração atual já cobre o essencial: código centralizado, documentação e blog.
-Ainda assim, deixámos espaço para evoluir:
+Our current setup covers the essentials: centralized code, documentation, and blog.
+Still, we left room to evolve:
 
-- Criar **dashboards interativos** dentro do site, relacionados com o nosso projeto.
-- Gerar **diagramas diretamente em Markdown** usando ferramentas como [Mermaid](https://github.com/remcohaszing/rehype-mermaid), o que nos permite manter diagramas versionados como código.
-- Usar **Projects, Issues e Discussions** para gestão de tarefas e planeamento.
+- Create **interactive dashboards** within the site, related to our project.
+- Generate **diagrams directly in Markdown** using tools like [Mermaid](https://github.com/remcohaszing/rehype-mermaid), allowing us to keep diagrams versioned as code.
+- Use **Projects, Issues, and Discussions** for task management and planning.
 
-## Conclusão
+## Conclusion
 
-A opção por uma Organização no GitHub para o código e **Astro + GitHub Pages** para a documentação dá-nos um **fluxo de trabalho leve e adaptado ao trabalho assíncrono**.
-É uma solução simples, mas que responde às nossas necessidades atuais e que tem margem para crescer à medida que o projeto evoluir.
+Choosing a GitHub Organization for code and **Astro + GitHub Pages** for documentation gives us a **lightweight workflow adapted to asynchronous work**.
+It’s a simple solution that meets our current needs and has room to grow as the project evolves.
