@@ -18,7 +18,7 @@ Below we summarize why Astro is our framework of choice and provide an overview 
 
 ## Why use Astro for this blog?
 
-When Prof. Carlos Ramos asked for a blog to record our work process, we wanted a simple framework which was basically a "document eater" with customizable themes and components and easy to deploy. Thankfully, our colleague Bruno Jesus knew just the right tool.
+When Prof. Carlos Ramos asked for a blog to record our work process, we wanted a simple framework which was basically a "document eater" with customizable themes and components and easy to deploy. Thankfully, our colleague Bruno Camarneiro knew just the right tool.
 
 **Astro** is a JavaScript framework allows for seamless integration with UI frameworks, such has React, Vue, Angular and others, as well as deployment adapters such as GitHub Pages, AWS, Vercel, etc.
 
