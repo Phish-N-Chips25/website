@@ -11,7 +11,9 @@ The meeting was essential to validate our project’s scope, refine detection cr
 ---
 
 ## Project Presentation
+
 Our team presented the project’s objectives and limitations:
+
 - **Scope:** build a rule-based model to detect phishing URLs.
 - **Goal:** design a tool that, given a URL, outputs whether it is likely phishing, supported by technical explanations.
 - **Constraints:** academic context limits us to rule-based and visual analysis approaches, without advanced machine learning.
@@ -19,7 +21,9 @@ Our team presented the project’s objectives and limitations:
 ---
 
 ## Expert Contributions
+
 David shared **practical techniques and indicators** used in professional environments to strengthen phishing detection, including:
+
 - **Domain age and origin:** recently created or disposable domains are a red flag.
 - **Redirection chains:** multiple hops often hide malicious intent.
 - **Encrypted parameters in URLs:** a common evasion technique.
@@ -32,7 +36,9 @@ He also emphasized that **static rules alone are insufficient**, recommending in
 ---
 
 ## Tools and Professional Practices
+
 David introduced us to **tools and platforms widely used in the industry**, such as:
+
 - Microsoft Defender for Office
 - VirusTotal
 - MX Toolbox
@@ -43,7 +49,9 @@ He explained how these solutions complement each other to validate domains, anal
 ---
 
 ## Data Sharing and Next Steps
+
 One of the most valuable outcomes of the meeting was David’s **commitment to share anonymized examples of benign and phishing URLs**, which will allow us to:
+
 - Test and validate our detection rules.
 - Benchmark our tool against real-world scenarios.
 
@@ -52,7 +60,9 @@ Additionally, David offered to share **metrics from phishing simulation campaign
 ---
 
 ## Conclusion
+
 This meeting represented a turning point in our project:
+
 - We validated our scope and constraints.
 - We gained access to professional detection criteria.
 - We secured real-world data to support our development and testing.
