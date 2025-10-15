@@ -16,7 +16,7 @@ The preliminary knowledge report represents the culmination of our research effo
 - Background research on phishing detection techniques
 - Current state-of-the-art approaches in the field
 - Relevant literature review
-- Initial understanding of AI/ML methodologies applicable to our domain
+- Initial understanding of AI methodologies applicable to our domain
 - Preliminary project scope and objectives
 
 Compiling this report helped us consolidate our understanding and identify gaps in our knowledge that we'll need to address moving forward.
@@ -31,7 +31,6 @@ The pitch presentation was an exercise in clarity and conciseness. With just 5 m
 2. **Problem Statement**: Why phishing detection matters in today's digital landscape
 3. **Current Knowledge Status**: What we've learned from our expert meetings and research
 4. **Project Objectives**: What we aim to achieve with our AI solution
-5. **Next Steps**: Our roadmap for the coming weeks
 
 The time constraint was challenging but valuable - it forced us to distill our project to its essence and communicate only the most critical information.
 
@@ -40,7 +39,7 @@ The time constraint was challenging but valuable - it forced us to distill our p
 One of the most valuable aspects of this week was hearing from the other 9 teams. The diversity of projects in the first challenge is remarkable:
 
 - Each team brought unique perspectives to their respective problem domains
-- The range of AI/ML applications showcased the versatility of artificial intelligence
+- The range of AI applications showcased the versatility of artificial intelligence
 - Several projects had particularly innovative approaches that sparked interesting discussions
 - The interdisciplinary nature of MEIA really shone through in the variety of challenges being tackled
 
@@ -50,7 +49,7 @@ Observing other presentations provided valuable insights:
 
 - **Presentation techniques**: Different approaches to structuring a technical pitch
 - **Scope management**: How other teams are defining their project boundaries
-- **Methodology choices**: Various AI/ML frameworks and approaches being considered
+- **Methodology choices**: Various AI frameworks and approaches being considered
 - **Challenge navigation**: Common obstacles and creative solutions
 
 ## Reflections and Moving Forward
